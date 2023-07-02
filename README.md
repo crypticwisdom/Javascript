@@ -144,6 +144,8 @@ alert('This script will be ignored, while the external script will be executed')
   - Use the (Chrome) debugging tools.
   - Use your I.D.E debugging capabilities.
 
+  - Breakpoint is used to tell the browser to stop code execution when a certain line of code is reached.
+  - 
 
 # __NOTES__
 
@@ -153,4 +155,17 @@ alert('This script will be ignored, while the external script will be executed')
 
 - Please note: This document is absolutely NOT meant to be learned by heart or to be used as a developer. Rather it's important to browser vendors.
 
-- You can console.log(argument, argument2,...)s
+- You can console.log(argument, argument2,...)
+
+__Useful Resources & Links__
+Attached, you find the source code for this section. The snapshots are also attached to individual lectures throughout this module (i.e. the lectures to which each snapshot belongs).
+
+The following resources may be helpful.
+
+VS Code Docs: <https://code.visualstudio.com/docs>
+
+VS Code Keybindings: <https://code.visualstudio.com/docs/getstarted/keybindings>
+
+VS Code Extensions Docs: <https://code.visualstudio.com/docs/editor/extension-gallery>
+
+Google Chrome DevTools Docs: <https://developers.google.com/web/tools/chrome-devtools/>
