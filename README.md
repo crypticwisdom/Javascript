@@ -87,3 +87,20 @@ you can convert data from one data type to another using these Javascript built-
 can be written in 2 ways. 
 - Single line comment: //
 - Multi-Line comment: /* long comment */
+
+# Import Scripts Correctly
+inspect your page on the browser -> go to 'performance' tab. his is a grest tool for understandin how to scripts are loading and executing.
+record, reload your page and pause.
+
+## What happens when:
+  - we import JS script at the html head tag without any attribute (defer / async): when this page is loaded on the browser, the browser parses the first html tags and pause parsing html to download and execute the scripts upon encountering them, after downloading and executing the scripts it then continues parsing html code. This is not right as it causes error if the scripts were supposed to interact with the html tags.
+
+  - we import JS script at the html head tag with the 'defer' attribute: the attribute will tell the browser that it should download the scripts right away but that it should not block parsing of the html codes, so tht instead it should continue parsing the html codes, it then executes the scripts after every html has been parsed completely. in summary, the attribute downloads the scripts early but it doesn't execute the script immediately after download instead it guarantees us that it only execute the scripts once they were downloaded and once parsing the html finishes. The order of execution is guaranteed.
+
+  - we import JS script at the html head tag with the 'async' attribute: if we want the scripts to download and execute early use the 'async' eyword, it tells the browser to start loading the script as early as possible but then, the broswer is not bloced but instead continues to parse the html, but the difference with defer is that with async the scripts gets executed onc the scripts are downloaded so, it does not wait for all the html to be parsed, instead it executes as early as possible. the order of the scripts execution is not guaranteed, the last script could first execute before the first script once it is loaded.
+
+  - note that 'defer' and 'async' are only available if you have external scripts. you can't used those html attributes on an inline script.
+
+  - inline scripts should be written at the end of the body section.
+
+  - you can't combine the inline and external scripts, the external script will run and therefore the inline script will be ignored.
