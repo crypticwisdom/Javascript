@@ -139,7 +139,12 @@ alert('This script will be ignored, while the external script will be executed')
  - Trial & error.
 - debug your code.
 
-# NOTES
+
+
+
+
+
+# --- NOTES
 
 - ECMAScript (the language "behind" JavaScript) is under active development and the current progress and active standard is of course documented.
 
