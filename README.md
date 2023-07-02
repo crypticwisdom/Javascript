@@ -52,11 +52,11 @@ E.g: correct way: `${variableName + 232}`.  use back-ticks for string interpolat
 
 # Data Type Conversion:
 you can convert data from one data type to another using these Javascript built-in function:
-parseInt(value); ==> To parse a value to integer OR +(stringNumberValue). e.g +"98"
+- parseInt(value); ==> To parse a value to integer OR +(stringNumberValue). e.g +"98"
     - the difference between +(stringValue) and parseInt(value) is, the parseInt converts a value to an integer (i.e to a number without a decimal) while, +(...) can take a striing value of float "656.656" and converts it to 656.656 still leaving the precisions.
 
-parseFloat(value) ==> To parse a value to float data type.
-data.toString() ==> To parse a value to string data type.
+- parseFloat(value) ==> To parse a value to float data type.
+- data.toString() ==> To parse a value to string data type.
 
 
 # Comments:
