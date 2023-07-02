@@ -133,18 +133,13 @@ alert('This script will be ignored, while the external script will be executed')
   - explore extensions and settings.
 
 - find help:
- - Use MDN (The official javascript documentation,Mozilla Development Network.
- - Learn how to Google (Seriously).
- - Ask proper questions, help others.
- - Trial & error.
+- Use MDN (The official javascript documentation,Mozilla Development Network.
+- Learn how to Google (Seriously).
+- Ask proper questions, help others.
+- Trial & error.
 - debug your code.
 
-
-
-
-
-
-# --- NOTES
+# --- NOTES ---
 
 - ECMAScript (the language "behind" JavaScript) is under active development and the current progress and active standard is of course documented.
 
