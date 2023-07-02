@@ -46,6 +46,7 @@ function multiply(){
     writeToLog('MULTIPLY', initialResult, enteredNumber, currentResult)
 
 }
+// divide function
 function divide(){
     const enteredNumber = getUserInput();
     const initialResult = currentResult;
