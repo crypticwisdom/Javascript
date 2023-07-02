@@ -16,18 +16,43 @@ e.g: let age = 90;
 # Data Types:
 - Numbers: 0, 2, -3 (integers) and  233.233 (floating points).
 - String: 'hi', "hi" or `hi`, these are all strings in JS.
-- booleans: true / false]
-- object: {key:'name', age:23}
+- booleans: true / false
+- object: {key:'name', age:23};
+     * Operation of an Object:
+          - object.key: unlike Python (object['key']). Here you can access an object with the '.' dot notation. console.log(object.key) => 'name'
 
 - Arrays: [1, 2, 3, 4, 'wisdom', 2.3]
-    * methods of an Array:
+    * 'Methods' of an Array:
       - .push(): adds an element into an array.
+      - array[index]: to access the elements of that array.
+      - an array is an object, a special type of object, becase when we check the runtime type with typeof [], it yields 'object' as the type.
+
+- null:
+     * it's not the default value of an uninitialized variable.
+     * I can manually assign the 'null' data type manaually to variable in other to clear or reset that variable.
+     * null is an object, a special type of object, becase when we check the runtime type with typeof null, it yields 'object' as the type.
+     
+- undefined: 
+   * This is the default value of uninitialized variable.
+   * You shouldn't assign undefine as a value to a variable manually. Technically, it will work but, it's not recommended.
+   * When you access an element of an array that doesn't exists, the value will be undefined.
+
+# NaN (Not a Number):
+   - It yields a new NaN and it's the result of invalid calculations e.g 3 * "hello".
+   - It's of type number and can be therefore used in calculations. But will yield a new NaN.
+   - it's like an error you get when calculating between numbers and string.
+   example: 
+        - 3 * "hi" => NaN
+        - 45 * NaN => NaN
 
 # Template Literals:
 E.g: correct way: `${variableName + 232}`.  use back-ticks for string interpolations in JS. 
        Wrong way: "${varableName + 323}", right way `${variableName}`.
     - Aside from substituting variables with string literals in a back-tick string, It is also used for writing long strings.
 
+# typeof:
+This is used to evaluate the type of a value at runtime.
+typeof "wisdom is a boy"; => string.
 
 # Functions:
     Syntax: 
@@ -54,7 +79,6 @@ E.g: correct way: `${variableName + 232}`.  use back-ticks for string interpolat
 you can convert data from one data type to another using these Javascript built-in function:
 - parseInt(value); ==> To parse a value to integer OR +(stringNumberValue). e.g +"98"
     - the difference between +(stringValue) and parseInt(value) is, the parseInt converts a value to an integer (i.e to a number without a decimal) while, +(...) can take a striing value of float "656.656" and converts it to 656.656 still leaving the precisions.
-
 - parseFloat(value) ==> To parse a value to float data type.
 - data.toString() ==> To parse a value to string data type.
 
