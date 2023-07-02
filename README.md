@@ -133,12 +133,17 @@ alert('This script will be ignored, while the external script will be executed')
   - explore extensions and settings.
 
 - Find help:
-  - Use MDN (The official javascript documentation,Mozilla Development Network.
+  - Use MDN (The official javascript documentation, Mozilla Development Network.
   - Learn how to Google (Seriously).
   - Ask proper questions, help others.
   - Trial & error.
-  
+
 - debug your code.
+  - Read and utilize error messages.
+  - Use console.log() to gain insights into your code (flow).
+  - Use the (Chrome) debugging tools.
+  - Use your I.D.E debugging capabilities.
+
 
 # __NOTES__
 
@@ -147,3 +152,5 @@ alert('This script will be ignored, while the external script will be executed')
 - You find a link on this page: <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
 
 - Please note: This document is absolutely NOT meant to be learned by heart or to be used as a developer. Rather it's important to browser vendors.
+
+- You can console.log(argument, argument2,...)s
