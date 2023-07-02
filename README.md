@@ -30,15 +30,16 @@ E.g: correct way: `${variableName + 232}`.  use back-ticks for string interpolat
 
 
 # Functions:
-    Syntax: function funcName(parameter1, parameter2){
+    Syntax: 
+               function funcName(parameter1, parameter2){
                        ...      
-                      }
+               }
   - Functions can be written at any part in the scripts and can be invoked before the function definition or after the function definition the order doesn't matter.
-  E.G:    add(1, 2); 
-             
-            function add(num1, num2){
+  E.G:      
+               add(1, 2); 
+                function add(num1, num2){
                    return num1 + num2;
-              }
+               }
 
 - The order of function invokation doesn't matter because the browser first scans through our scripts and gets aware of the presence of these functions and then put them at the TOP level of the file, so that even though the function is called before it's definition, it can still be reachable.
 - You need to write your program correctly by writting your function definition before calling the  function, it is a good practice but not required.
