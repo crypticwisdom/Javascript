@@ -104,3 +104,7 @@ record, reload your page and pause.
   - inline scripts should be written at the end of the body section.
 
   - you can't combine the inline and external scripts, the external script will run and therefore the inline script will be ignored.
+
+  ```<script src="">
+     alert('This script will be ignored, while the external script will be executed');
+  </script>
