@@ -1,5 +1,5 @@
 # Javascript
-## This is repository is usd for learning basic Javascript language with html and css.
+## This repository is used for learning basic Javascript language with html and css.
 
 # About Javascript
 - A dynamic, interpreted and weakly typed language.
