@@ -107,4 +107,6 @@ record, reload your page and pause.
 
   ```<script src="">
      alert('This script will be ignored, while the external script will be executed');
-  </script>
+  </script>```
+
+  
