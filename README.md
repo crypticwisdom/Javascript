@@ -132,11 +132,12 @@ alert('This script will be ignored, while the external script will be executed')
   - use auto completion and hints.
   - explore extensions and settings.
 
-- find help:
-- Use MDN (The official javascript documentation,Mozilla Development Network.
-- Learn how to Google (Seriously).
-- Ask proper questions, help others.
-- Trial & error.
+- Find help:
+  - Use MDN (The official javascript documentation,Mozilla Development Network.
+  - Learn how to Google (Seriously).
+  - Ask proper questions, help others.
+  - Trial & error.
+  
 - debug your code.
 
 # __NOTES__
