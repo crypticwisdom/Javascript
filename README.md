@@ -32,9 +32,8 @@ e.g: let age = 90;
     - an array is an object, a special type of object, becase when we check the runtime type with typeof [], it yields 'object' as the type.
 
 - null:
-  - it's not the default value of an uninitialized variable.
   - I can manually assign the 'null' data type manaually to variable in other to clear or reset that variable.
-  - null is an object, a special type of object, becase when we check the runtime type with typeof null, it yields 'object' as the type.
+  - null is an object, a special type of object, becase when we check the runtime type with 'typeof' null, it yields 'object' as the type.
 
 - undefined:
   - This is the default value of uninitialized variable.
@@ -63,10 +62,11 @@ typeof "wisdom is a boy"; => string.
 
 # Functions
 
-    Syntax: 
-               function funcName(parameter1, parameter2){
-                       ...      
-               }
+```Javascript
+  function funcName(parameter1, parameter2){
+          ...      
+  }
+```
 
 - Functions can be written at any part in the scripts and can be invoked before the function definition or after the function definition the order doesn't matter.
   E.G:
@@ -101,7 +101,7 @@ can be written in 2 ways.
 
 # Import Scripts Correctly
 
-inspect your page on the browser -> go to 'performance' tab. his is a grest tool for understandin how to scripts are loading and executing.
+inspect your page on the browser -> go to 'performance' tab. This is a great tool for understandin how to scripts are loading and executing.
 record, reload your page and pause.
 
 ## What happens when
@@ -126,19 +126,19 @@ alert('This script will be ignored, while the external script will be executed')
 
 # Efficient Development and Debugging
 
-- write code efficiently:
+- Write code efficiently:
   - work in a productive environment (i.e IDE, editor).
   - auto format code and use shortcuts.
   - use auto completion and hints.
   - explore extensions and settings.
 
 - Find help:
-  - Use MDN (The official javascript documentation, Mozilla Development Network.
+  - Use MDN (The official javascript documentation, Mozilla Development Network)
   - Learn how to Google (Seriously).
   - Ask proper questions, help others.
   - Trial & error.
 
-- debug your code.
+- Debug your code.
   - Read and utilize error messages.
   - Use console.log() to gain insights into your code (flow).
   - Use the (Chrome) debugging tools.
@@ -146,6 +146,91 @@ alert('This script will be ignored, while the external script will be executed')
 
   - Breakpoint is used to tell the browser to stop code execution when a certain line of code is reached.
   - 
+
+# Conditional Statement
+- if statement is used to run blocks of code conditionally.
+
+## Boolean (Comparison) Operators
+These are operators that yeilds a true or false:
+  - == ->(Used to check if a value at the right hand side is equal to the value at the left hand side, 23 == 23 this yields -> true).
+  - != -> (Used to check if a value at the right hand side is not equal to the value at the left hand side, 23 != 24 this yields -> false).
+  - === -> (Used to check if a value at the right hand side is equal in both type and value to the value at the left hand side, 23 === '23' this yields -> false).
+  - !== -> (Used to check if a value at the right hand side is not equal in both type and value to the value at the left hand side, 23 !== '23' this yields -> true)
+  Note: For more stricter and better code, use the '===' or the '=='.
+  
+  - ">" -> Great than sign, 5 > 7, this yields -> false
+  - ">" -> Great than sign, 5 < 7, this yields -> true
+
+  - ">=" -> Great than or equal sign, 5 <= 7, this yields -> true
+  - "<=" -> Less than or equal sign, 5 >= 7, this yields -> false
+  - ! -> negation sign,(check IF NOT true) a = true, !a -> false, it simoly inverts a boolean value.
+
+  Syntax :
+  ```Javascript
+    // Ordinary if statement
+    if (condition1){
+      // The code here will execute only if the codition1 evaluates to true.
+    }
+
+    // if-else statement
+    if(condition3){
+      // The code here will execute only if the codition3 evaluates to true.
+      
+    } else {
+      // The code here will execute only if the codition3 evaluates to false.
+    }
+    
+    // if-else-if statement
+    if(condition2){
+      // The code here will execute only if the codition2 evaluates to true.
+    } else if(condition3){
+      // The code here will execute only if the codition3 evaluates to true.
+    }else{
+      // The code here will execute only if the codition2 and condition3 evaluates to false.
+    }
+    ```
+
+## Beware when comparing objects
+```Javascript
+ let person1 = {name: 'wisdom'};
+ let person2 = {name: 'wisdom'};
+
+ person1 == person2; // this is false because they live in different memory location regardless if they contain the same value and an amount of item.
+
+  person1 === person2; // this is false because they live in different memory location regardless if they contain the same value and an amount of item.
+
+  person1.name == person2.name; // but you can compare values in the element.
+ ```
+ 
+ ## Combining Conditions (Logical Operator)
+ Used for joining conditions together.
+ - && -> (AND) e.g: true && true -> true
+ - || -> (OR) e.g: true || false -> true
+
+
+## Arithemetics Operator
+- +
+- -
+- *
+- /
+- %
+- **
+- ++
+- --
+...
+
+# Assignment Operator
+- -=
+- +=
+- *=
+- /=
+- =
+- **=
+...
+
+ # Operator Precedence
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence>
+
 
 # __NOTES__
 
