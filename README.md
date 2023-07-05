@@ -243,6 +243,41 @@ These are operators that yeilds a true or false:
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence>
 
 
+
+
+... Continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # __NOTES__
 
 - ECMAScript (the language "behind" JavaScript) is under active development and the current progress and active standard is of course documented.
