@@ -148,7 +148,18 @@ alert('This script will be ignored, while the external script will be executed')
   - 
 
 # Conditional Statement
-- if statement is used to run blocks of code conditionally.
+- 'if statement' is used to run blocks of code conditionally.
+
+# There are different types of JavaScript operators:
+
++ Arithmetic Operators: (+, -, *, **, /, %, %, ++, --)
++ Assignment Operators: (=, +=, -=, *=, /=, %=, **=)
++ Comparison Operators: (==, === (equal value and type), !=, !==, <, >, >=, <=, ?(Tenary Operator))
++ String Operators: (+, )
++ Logical Operators: && (Logical AND), || (Logical OR), !(Logical Not)
++ Bitwise Operators: (&, |, ~, ^, <<, >>, >>>)
++ Ternary Operators: 
++ Type Operators: 'typeof' -> (Returns the type of a variable), 'instanceof' (Returns 'true' if an object is an instance of an object type).
 
 ## Boolean (Comparison) Operators
 These are operators that yeilds a true or false:
