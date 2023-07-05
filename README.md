@@ -218,27 +218,6 @@ These are operators that yeilds a true or false:
  - && -> (AND) e.g: true && true -> true
  - || -> (OR) e.g: true || false -> true
 
-
-## Arithemetics Operator
-- +
-- -
-- *
-- /
-- %
-- **
-- ++
-- --
-...
-
-# Assignment Operator
-- -=
-- +=
-- *=
-- /=
-- =
-- **=
-...
-
  # Operator Precedence
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence>
 
